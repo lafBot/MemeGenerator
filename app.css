@@ -57,6 +57,19 @@ img {
     border-radius: 20px;
 }
 
+.meme button {
+    display: none;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.meme:hover button {
+    display: block;
+}
+
 .upper-text {
     position: relative;
     text-align: center;
@@ -71,13 +84,4 @@ img {
     top: 330px;
     font-size: 2em;
     font-family: Impact;
-}
-
-button {
-    position: relative;
-    top: 10px;
-    left: 10px;
-    border-radius: 50%;
-    background-color: transparent;
-    border: none;
 }
